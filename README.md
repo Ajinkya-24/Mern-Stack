@@ -1,4 +1,4 @@
 # Mern-Stack
 This is My Mern Stack Training Repository
 <br>
-Author- Ajinkya Sahastrabuddhe
+Author- Ajinkya Sahastrabuddhe(Jinkss)
