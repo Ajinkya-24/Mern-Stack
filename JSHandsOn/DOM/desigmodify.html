@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesignModify</title>
+</head>
+<body>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            background-color:green;
+        }
+    </style>
+    <div id="box" onclick="changeBColor()" ondblclick="previousColor()" onmouseover="zoomIn()" onmouseout="ZoomOut()">
+
+    </div>
+    <script>
+        function changeBColor() {
+            document.getElementById("box").style.backgroundColor = "orange";
+        }
+        function previousColor(){
+            document.getElementById("box").style.backgroundColor="green";
+        }
+        function zoomIn(){
+            document.getElementById("box").style.width="400px";
+            document.getElementById("box").style.height="400px";
+        }
+        function  ZoomOut(){
+            document.getElementById("box").style.width="200px";
+            document.getElementById("box").style.height="200px";
+ 
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation</title>
+</head>
+<body>
+    <h3 class="state">Maharashtra</h3>
+    <h3 class="state">MP</h3>
+    <h3 class="state">HP</h3>
+    <h3 class="region">Vidharbha</h3>
+    <h3 class="region">Konkan</h3>
+    <p id="ClgName">St. Vincent Pallotti,Nagpur</p>
+    <p id="City">Nagpur</p>
+    <p id="City">Nashik</p>
+    <button onclick="store()">get By ID</button>
+    <script>
+        function store(){
+            let state=document.getElementsByClassName('state');
+            for(let i=0;i<state.length;i++)
+               console.log(state[i].innerHTML);
+               let region=document.getElementsByClassName('region');
+            for(let i=0;i<region.length;i++)
+               console.log(region[i].innerHTML);
+            /*let name = document.getElementById("ClgName").innerHTML;
+            let college = document.getElementById('City').innerHTML;
+            console.log("name,college");
+            console.log("-----------------");
+            let state=document.getElementsByClassName("state")
+            let region=document.getElementsByClassName("region")
+            console.log(state[0].innerHTML,region[0].innerHTML)*/
+        }
+    </script>
+</body>
+</html>

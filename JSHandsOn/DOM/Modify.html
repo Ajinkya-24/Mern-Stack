@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modification of Document</title>
+</head>
+<body>
+    <p id="fname">Ainkya</p>
+    <p id="lname">Shastrabuddhe</p>
+    <button onclick="getname()">Get Name</button>
+    <p id="fullname">Full Name: </p>
+    <p id="state">Maharashtra</p>
+    <p id="city">Nagpur</p>
+
+    <script>
+        function getname() {
+            // Access using ID
+            let fname = document.getElementById("fname").innerHTML; // Get first name
+            let lname = document.getElementById("lname").innerHTML; // Get last name
+            let state = document.getElementById("state").innerHTML; // Get state
+            let city = document.getElementById("city").innerHTML; // Get city
+
+            // Modification using innerHTML
+            document.getElementById("fullname").innerHTML = "Full Name: " + fname + " " + lname; // Combine names
+            document.getElementById("fullname").innerHTML += "<br>Address: " + city + ", " + state; // Combine city and state
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="day">
+    <button onclick="DisplayDay()">Display Day</button>
+    <script>
+        function DisplayDay(){
+            let day=parseInt(document.getElementById('day').value)
+
+            switch (day){
+            case 1:
+                //alert("sunday");
+                console.log("sunday")
+                break;
+            case 2:
+                //alert("monday");
+                console.log("monday")
+                break;
+            case 3:
+                //alert("tuesday");
+                console.log("tuesday")
+                break;
+             default:
+                //alert("Invalid Day")
+                console.log("Invalid Day")
+                break;
+            }   
+            console.log("_ _ _ _ _ _")
+        }
+    </script>
+</body>
+</html>
