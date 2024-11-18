@@ -1,0 +1,32 @@
+p{
+    color: yellow;
+    background-color: cyan;
+}
+/* universal Selecter*/
+*{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Element Selector*/
+p{
+    color: hotpink;
+}
+h1{
+    text-align: center;
+}
+span{
+    border: green 3px solid;
+}
+/* id selector*/
+#border{
+    border: 2px solid beige;
+    border-radius: 12px;
+    border-width: 100px;
+    text-align: center;
+}
+/* class Selector*/
+.design{
+    font-size: xx-large;
+    background-color: aquamarine;
+    color: blue;
+}

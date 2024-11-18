@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element</title>
+    <style>
+        p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: justify;
+        }
+        p::first-line{
+            background-color: yellow;
+            font-style: italic;
+        }
+        p::first-letter{
+            background-color: aqua;
+            font-size: 50px;
+            border-radius: 12px;
+        }
+        p::after{
+            content: "#";
+            background-color: red;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, deleniti voluptatibus! Nisi esse amet accusantium eaque omnis repellat eveniet sapiente voluptates molestiae est, veritatis odio mollitia fuga magni autem fugiat voluptatum nam id. Voluptates magni illum consequuntur sunt incidunt aliquid esse nostrum cum quisquam perferendis impedit, eos dignissimos quis voluptatum. Doloremque quod accusamus beatae sint nemo. Sint inventore obcaecati quasi quas fugit aut non eveniet fuga, magni, minima illo aperiam atque libero. Laudantium similique, delectus dolore autem pariatur unde quis exercitationem ducimus consectetur iusto, sed id accusantium quae architecto. Voluptatem id eos in neque alias hic dicta exercitationem voluptate maxime.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut vero in blanditiis facere consequuntur? Ut, praesentium. Blanditiis consectetur laborum velit? Quo ipsa, illum architecto modi laboriosam earum? Ad, autem blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita odio sit repudiandae culpa, hic aperiam obcaecati nam recusandae tempora quos veritatis aspernatur atque eveniet et quasi in quis mollitia eaque!</p>
+</body>
+</html>

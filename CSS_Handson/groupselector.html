@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        div p{
+              color: red;
+        }
+        section p{
+            color:blue;
+        }
+        li{
+            color: blue;
+        }
+        #square li{
+            color: red;
+        }
+        #square #one{
+            border: 3px solid black;
+            width: 50px;
+        }
+        .inside{
+            color: hotpink;
+        }
+    </style>
+    <div>
+        <p>Hello in P with block one </p>
+        <p>Hello in P with block one </p>
+        <p>Hello in P with block one </p>
+    </div>
+    
+    <section>
+        <p>Hello in P with block two</p>
+        <p>Hello in P with block two</p>
+    </section>
+    <ol>
+        <li>Nagpur</li>
+        <li>Gondia</li>
+        <li>Bhandara</li>
+        <li>Pune</li>
+    </ol>
+    <ul>
+        <li>Nagpur</li>
+        <li>Gondia</li>
+        <li>Bhandara</li>
+        <li>Pune</li>
+    </ul>
+    <ul type="square" id="square">
+        <li id="one">Nagpur</li>
+               <ol>
+                   <li class="inside"> Jamtha</li>
+               </ol>
+        <li>Gondia</li>
+        <li>Bhandara</li>
+        <li>Pune</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element</title>
+</head>
+<body>
+    <style>
+        p[itemtype="electronics"]{
+            color:blue;
+        }
+        p[itemtype="Homeapply"]{
+            color: red;
+        }       
+
+        p[cost="High"]{
+            border: 2px solid red;
+            width: 200px;
+        }
+        p[cost="Low"]{
+            border: 2px dotted green;
+            width: 200px;
+        }
+        p{
+            text-align: center;
+        }
+        p:hover{
+            background-color: orange;
+            border-radius: 15px;
+        }
+        button:hover{
+            background-color: burlywood;
+            border-radius: 20px;
+        }
+        /*  pseudo element /Selection*/
+        a:active{
+            color: blue;
+        }
+    </style>
+    <P itemtype="electronics" cost="High">SmartPhone</P>
+    <p itemtype="electronics"cost="Low">SmartWatch</p>
+    <p itemtype="Homeapply"cost="Low">InductionCooker</p>
+    <p itemtype="Homeapply"cost="Low">Mixer</p>
+    <p itemtype="electronics"cost="High">Laptop</p>
+    <p itemtype="Homeapply"cost="High">Washing Machine</p>
+    <button><a href="position.html" target="_blank">Click kar be</a></button>
+</body>
+</html>

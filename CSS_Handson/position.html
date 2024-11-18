@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+</head>
+<body>
+    <style>
+        #main{
+            width: 100%;
+            height: auto;
+            background-color: yellowgreen;
+        }
+        #box1,#box2,#box3,#box4,#box5{
+             height: 200px;
+             width: 200px;
+             text-align: center;
+             margin: 10px;
+        }
+        #box1{
+            background-color: orange;
+            position: static;
+        }
+        #box2{
+            background-color: white;
+            position: relative;/* relative is depend on perticular block*/
+            left: 100px;
+            top: 40px;
+            bottom: 100px;
+
+        }
+        #box3{
+            background-color: khaki;
+            position: absolute;/*relative but with the body tag => Absolute*/
+            top: 10px;
+            left: 400px;
+        }
+        #box4{
+            background-color: lightblue;
+            position: fixed;
+            top: 200px;
+            left: 300px;
+        }
+        #box5{
+            background-color: lightgreen;
+            position: sticky;
+            top: 200px;
+            left: 200px;
+        }
+        
+    </style>
+    <div id="main">
+        <div id="box1">Box1 (static1)</div>
+        <div id="box1">Box1 (static2)</div>
+        <div id="box2">Box2 (Relative)</div>
+        <div id="box3">Box3 (Absolute)</div>
+        <div id="box4">Box4 (fixed)</div>
+        <div id="box5">Box5 (sticky)</div>
+    </div>
+</body>
+</html>
