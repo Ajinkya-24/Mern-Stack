@@ -1,0 +1,15 @@
+*{
+    text-align: left;
+}
+
+
+.input-box{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    background-color: aqua;
+}
+.buttonbox{
+    background-color: pink;
+    width: 400px;
+}
