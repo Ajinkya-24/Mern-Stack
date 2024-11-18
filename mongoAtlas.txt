@@ -1,0 +1,6 @@
+mongoAtlas 
+
+Use-workajinkya2424
+pass-ldtDIj4MdNaYdG4i
+
+mongodb+srv://workajinkya2424:ldtDIj4MdNaYdG4i@cluster0.lvtwy.mongodb.net/
